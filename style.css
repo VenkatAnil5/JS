@@ -1,0 +1,102 @@
+*{
+    background-color: black;
+    font-family: consolas,monospace;
+}
+
+/* Stop Watch */
+#timeContainer{ 
+    background-color: #333333;
+    height: 100px;
+    border: 5px rgb(79, 242, 79) solid;
+    border-radius: 6px;
+    text-align: center;
+}
+#timeDisplay{
+    font-size: 75px;
+    color: rgb(79, 242, 79);
+    background-color: #333333;
+}
+
+.timerButton{
+    width: 80px;
+    height: 30px;
+    border: 3px solid rgb(79, 242, 79);
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Rock Paper Scissor */
+
+#rockPaperScissor{
+    margin-top: 25px;
+    height: 210px;
+    background-color: #333333;
+    border: 5px rgb(79, 242, 79) solid;
+    border-radius: 6px;
+    text-align: center;
+    color: rgb(79, 242, 79);
+}
+
+.choiceButton{
+    width: 80px;
+    height: 30px;
+    border: 3px solid rgb(79, 242, 79);
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+}
+
+#rockPaperScissor h1{
+    background-color: #333333;
+}
+
+
+/* Tic Tac Toe */
+
+#ticTacToeContainer{
+    padding-top: 20px;
+    margin-top: 25px;
+    height: 300px;
+    background-color: #333333;
+    border: 5px rgb(79, 242, 79) solid;
+    border-radius: 6px;
+    text-align: center;
+    color: rgb(79, 242, 79);
+}
+
+#restartButton{
+    width: 80px;
+    height: 30px;
+    border: 3px solid rgb(79, 242, 79);
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+}
+
+
+.cell{
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 0 2px;
+    line-height: 70px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
+
+#ticTacToeContainer h2{
+    background: #333333;
+}
